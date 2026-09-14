@@ -1,0 +1,45 @@
+:root {
+  --primary: #1e3a8a;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --border: #e2e8f0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.app-card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border);
+}
+
+h1 { color: var(--primary); font-size: 20px; text-align: center; margin-bottom: 4px; }
+.subtitle { text-align: center; color: #64748b; font-size: 13px; margin-top: 0; }
+
+.form-group { margin-bottom: 12px; }
+label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+input { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; }
+
+button {
+  width: 100%; background-color: var(--primary); color: white; border: none;
+  padding: 10px; border-radius: 6px; font-weight: bold; cursor: pointer;
+}
+
+.section { margin-top: 16px; border-top: 1px solid var(--border); padding-top: 12px; }
+.item-list { list-style: none; padding-left: 0; }
+.item-list li {
+  background: #f1f5f9; padding: 8px 12px; border-radius: 4px;
+  margin-bottom: 6px; font-size: 13px; display: flex; justify-content: space-between;
+}

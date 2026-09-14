@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 1 - DOM Manipulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="app-card">
+      <h1>Part 1: Dynamic Item Builder</h1>
+      <p class="subtitle">Concept: DOM Manipulation</p>
+
+      <div class="form-group">
+        <label for="itemNameInput">Item / Snack Name:</label>
+        <input type="text" id="itemNameInput" placeholder="e.g., Meatpie">
+      </div>
+
+      <div class="form-group">
+        <label for="itemCostInput">Cost (₦):</label>
+        <input type="number" id="itemCostInput" placeholder="e.g., 150">
+      </div>
+
+      <button id="addBtn">Add to List (DOM Append)</button>
+
+      <div class="section">
+        <h3>Today's Expenses</h3>
+        <ul id="expenseList" class="item-list">
+          <!-- Dynamically filled by DOM Manipulation -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
